@@ -1,0 +1,10 @@
+#number of digtits in given number
+n=int(input('enter number:'))
+count=0
+while n>0:
+      count=count+1
+      n=n//10
+print('no of digits',count)
+enter number:2345
+no of digits 4
+> 
